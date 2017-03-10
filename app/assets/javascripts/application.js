@@ -15,5 +15,8 @@
 //= require vue
 //= require vue-router
 //= require vue-resource
-//= require vuex
 //= require_tree .
+
+$(document).ready(function() {
+  $.material.init();
+});
